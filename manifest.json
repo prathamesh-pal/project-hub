@@ -1,5 +1,10 @@
 [
   {
+    "name": "avatar-image-generator",
+    "label": "Avatar Image Generator",
+    "path": "/avatar-image-generator/"
+  },
+  {
     "name": "gradient-generator",
     "label": "Gradient Generator",
     "path": "/gradient-generator/"
