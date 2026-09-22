@@ -1,0 +1,16 @@
+{
+  "name": "project-hub",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:all": "bash scripts/build-all.sh",
+    "new-app": "bash scripts/new-app.sh",
+    "deploy": "npm run build:all && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

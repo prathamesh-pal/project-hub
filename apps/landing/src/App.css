@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #101014;
+  color: #E7E6E2;
+  font-family: 'Space Grotesk', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.landing {
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.landing-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.4rem;
+}
+
+.landing-header p {
+  color: rgba(231, 230, 226, 0.55);
+  margin: 0 0 2.5rem;
+}
+
+.landing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.landing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.1rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #17171C;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 120ms ease;
+}
+
+.landing-card:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.landing-card-label {
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.landing-card-path {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: rgba(231, 230, 226, 0.45);
+}
+
+.landing-status {
+  color: rgba(231, 230, 226, 0.5);
+  font-size: 0.9rem;
+}
+
+.landing-status code {
+  font-family: 'JetBrains Mono', monospace;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}

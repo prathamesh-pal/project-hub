@@ -1,0 +1,5 @@
+node_modules
+dist
+dist-standalone
+*.bak
+.DS_Store
