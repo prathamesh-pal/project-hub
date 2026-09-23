@@ -22,7 +22,10 @@ const toLabel = (name) =>
 const manifest = entries.map((name) => ({
   name,
   label: toLabel(name),
-  path: `/${name}/`
+  // Relative (no leading slash) so it resolves correctly whether the
+  // site is served at the domain root or under a GitHub Pages
+  // /<repo-name>/ subpath.
+  path: `${name}/`
 }))
 
 const outPath = join(appsDir, 'landing', 'public', 'manifest.json')

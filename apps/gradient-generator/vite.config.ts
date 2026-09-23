@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // builds into dist/<app-name>/ at the workspace root.
 export default defineConfig({
   plugins: [react()],
-  base: '/gradient-generator/',
+  base: './',
   build: {
     outDir: '../../dist/gradient-generator',
     emptyOutDir: true
