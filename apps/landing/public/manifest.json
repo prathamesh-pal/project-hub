@@ -8,5 +8,10 @@
     "name": "gradient-generator",
     "label": "Gradient Generator",
     "path": "gradient-generator/"
+  },
+  {
+    "name": "image-finder",
+    "label": "Image Finder",
+    "path": "image-finder/"
   }
 ]
