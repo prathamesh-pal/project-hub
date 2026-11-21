@@ -13,5 +13,10 @@
     "name": "image-finder",
     "label": "Image Finder",
     "path": "image-finder/"
+  },
+  {
+    "name": "youtube-thumbnail",
+    "label": "Youtube Thumbnail",
+    "path": "youtube-thumbnail/"
   }
 ]

@@ -1,5 +1,8 @@
-node_modules
-dist
-dist-standalone
+node_modules/
+dist/
+dist-standalone/
 *.bak
 .DS_Store
+.env
+.env.*
+!.env.example
