@@ -15,6 +15,11 @@
     "path": "image-finder/"
   },
   {
+    "name": "truehuman",
+    "label": "Truehuman",
+    "path": "truehuman/"
+  },
+  {
     "name": "youtube-thumbnail",
     "label": "Youtube Thumbnail",
     "path": "youtube-thumbnail/"
